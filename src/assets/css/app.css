@@ -1,0 +1,65 @@
+@tailwind base;
+
+@tailwind components;
+
+.ease {
+  transition: all 0.25s ease-out;
+}
+
+.z-minus {
+  z-index: -1;
+}
+
+.underlineEffect {
+  position: relative;
+  z-index: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.underlineEffect:hover::after {
+  width: 100%;
+  left: 0;
+  right: 0;
+  transform-origin: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.underlineEffect::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  width: 0;
+  border-bottom: 2px solid #ccbf90;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cardo";
+  src: url(../fonts/Cardo-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Regular.ttf);
+}
+/*
+@font-face {
+  font-family: "Cardo";
+  src: url(../fonts/Cardo-Italic.ttf);
+} */
+
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-VariableFont_wght.ttf);
+}
+
+/* @font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-Italic-VariableFont_wght.ttf);
+} */
