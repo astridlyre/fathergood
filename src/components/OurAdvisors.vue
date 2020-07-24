@@ -1,9 +1,13 @@
 <template>
-  <section class="flex flex-col items-center w-full bg-light">
+  <section class="flex flex-col items-center w-full max-w-full bg-light">
     <div
       class="mb-8 lg:mb-0 max-w-screen-md lg:max-w-screen-xl lg:flex lg:flex-row-reverse w-full z-10"
     >
-      <img class="" src="@/assets/img/scientist.jpg" alt="Our Advisors" />
+      <img
+        class="lg:w-2/3"
+        src="@/assets/img/scientist.jpg"
+        alt="Our Advisors"
+      />
       <div
         class="mt-8 lg:mt-0 p-8 flex flex-col justify-start items-end w-full lg:w-1/2"
       >
@@ -22,7 +26,11 @@
     <div
       class="mb-8 pb-8 max-w-screen-md w-full lg:max-w-screen-xl lg:flex product z-0"
     >
-      <img class="" src="@/assets/img/cutecouple.jpg" alt="Cute Couple" />
+      <img
+        class="lg:w-2/3 lg:object-cover"
+        src="@/assets/img/cutecouple.jpg"
+        alt="Cute Couple"
+      />
       <div
         class="mt-8 px-8 flex flex-col justify-start items-start w-full lg:w-1/2"
       >
