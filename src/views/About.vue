@@ -3,7 +3,7 @@
     <section
       class="bg-image pt-24 md:pt-0 relative z-0 bg-brand min-h-screen flex flex-col justify-start md:justify-center md:items-end items-center"
     >
-      <div class="w-full sm:w-2/3 lg:w-2/3 sm:p-8 p-4">
+      <div class="w-full lg:-mt-48 lg:mt-0 sm:w-2/3 lg:w-2/3 sm:p-8 p-4">
         <div class="flex flex-col">
           <h4 class="mb-4 text-sm text-dark">
             ABOUT US
