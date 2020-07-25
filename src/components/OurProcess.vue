@@ -24,11 +24,13 @@
         <p class="text-sm lg:text-base text-daccent text-right w-1/2">
           Next business day delivery, pick up when you're ready.
         </p>
-        <button
-          class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
+        <router-link to="/howitworks">
+          <button
+            class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
+          >
+            LEARN MORE
+          </button></router-link
         >
-          LEARN MORE
-        </button>
       </div>
     </div>
     <div
@@ -44,11 +46,13 @@
           Accurate clinical sperm analysis, provided securely to you online in
           just two days.
         </p>
-        <button
-          class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
+        <router-link to="/analysis">
+          <button
+            class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
+          >
+            LEARN MORE
+          </button></router-link
         >
-          LEARN MORE
-        </button>
       </div>
     </div>
     <div
@@ -66,11 +70,13 @@
           State-of-the-art facilities and multi-site storage for maximum peace
           of mind.
         </p>
-        <button
-          class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
+        <router-link to="/about">
+          <button
+            class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
+          >
+            LEARN MORE
+          </button></router-link
         >
-          LEARN MORE
-        </button>
       </div>
     </div>
   </section>

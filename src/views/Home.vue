@@ -14,11 +14,14 @@
             We know fertility is personal, and that's why understanding and
             safeguarding yours begins where you feel most comfortable — home.
           </p>
-          <button
-            class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
-          >
-            GET STARTED
-          </button>
+          <router-link to="/contact">
+            <button
+              type="button"
+              class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
+            >
+              GET STARTED
+            </button>
+          </router-link>
         </div>
       </div>
       <svg
@@ -64,23 +67,25 @@
           <h3 class="text-5xl lg:text-6xl leading-none font-serif text-light">
             Let's be 50% of the fertility <em>conversation</em>.
           </h3>
-          <button
-            class="mt-4 flex self-end items-center hover:border-2 hover:border-light px-2 py-1 hover:text-light text-laccent text-sm font-semibold ease"
-          >
-            <span>WHAT ARE THE FACTS</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="ml-2 w-6 h-6 stroke-current"
+          <a href="https://www.bing.com/search?q=what+are+the+facts">
+            <button
+              class="mt-4 flex self-end items-center hover:border-2 hover:border-light px-2 py-1 hover:text-light text-laccent text-sm font-semibold ease"
             >
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-          </button>
+              <span>WHAT ARE THE FACTS</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="ml-2 w-6 h-6 stroke-current"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </a>
         </div>
       </div>
     </section>

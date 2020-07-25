@@ -3,13 +3,15 @@
     <section
       class="bg-image pt-24 md:pt-0 relative z-0 bg-brand min-h-screen flex flex-col justify-start md:justify-center md:items-end items-center"
     >
-      <div class="w-full lg:-mt-48 lg:mt-0 sm:w-2/3 lg:w-2/3 sm:p-8 p-4">
+      <div
+        class="w-full md:bg-white md:bg-opacity-75 lg:-mt-48 lg:mt-0 sm:w-2/3 lg:w-2/3 sm:p-8 p-4"
+      >
         <div class="flex flex-col">
           <h4 class="mb-4 text-sm text-dark">
             ABOUT US
           </h4>
           <h1
-            class="mb-4 text-4xl xl:text-6xl text-brand font-bold font-serif leading-none"
+            class="mb-4 text-4xl sm:text-5xl xl:text-6xl text-brand font-bold font-serif leading-none"
           >
             Male fertility may be changing, but we’re here to make sure that
             fatherhood doesn't.

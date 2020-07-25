@@ -230,11 +230,13 @@
             the answer is no, we securely dispose of your sample after seven
             days.
           </p>
-          <button
-            class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
+          <router-link to="/contact">
+            <button
+              class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
+            >
+              ORDER NOW
+            </button></router-link
           >
-            ORDER NOW
-          </button>
         </div>
       </div>
     </section>
