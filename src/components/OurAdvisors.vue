@@ -4,7 +4,7 @@
       class="mb-8 lg:mb-0 max-w-screen-md lg:max-w-screen-xl lg:flex lg:flex-row-reverse w-full z-10"
     >
       <img
-        class="lg:w-2/3"
+        class="lg:w-1/2 object-cover"
         src="@/assets/img/scientist.jpg"
         alt="Our Advisors"
       />
@@ -27,7 +27,7 @@
       class="mb-8 pb-8 max-w-screen-md w-full lg:max-w-screen-xl lg:flex product z-0"
     >
       <img
-        class="lg:w-2/3 lg:object-cover"
+        class="lg:w-1/2 lg:object-cover"
         src="@/assets/img/cutecouple.jpg"
         alt="Cute Couple"
       />
