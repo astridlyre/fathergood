@@ -15,7 +15,7 @@
       >
       <router-link class="underlineEffect" to="/analysis">Analysis</router-link>
       <router-link class="underlineEffect" to="/about">About Us</router-link>
-      <router-link class="underlineEffect" to="/contact">Contact`</router-link>
+      <router-link class="underlineEffect" to="/contact">Contact</router-link>
     </nav>
     <header
       :class="{ navbarHidden: scrolled, navbarShown: !scrolled }"
