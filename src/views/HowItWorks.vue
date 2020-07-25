@@ -128,6 +128,90 @@
         </div>
       </div>
     </section>
+    <section class="flex flex-col items-center justify-center w-full bg-light">
+      <div
+        class="mb-8 lg:mb-0 w-full max-w-screen-md lg:max-w-screen-xl z-0 grid grid-cols-1 md:grid-cols-3"
+      >
+        <img
+          class="col-span-1 md:col-span-2 w-full object-cover"
+          src="@/assets/img/science.jpg"
+          alt="The Science"
+        />
+        <div
+          class="p-8 md:pb-0 col-span-1 flex flex-col justify-start md:justify-end items-start w-full"
+        >
+          <h4 class="mt-8 lg:mt-0 mb-4 text-sm text-daccent">THE PROCESS</h4>
+          <h3
+            class="mb-2 text-4xl md:text-5xl leading-none font-serif text-dark"
+          >
+            Simple, secure and easy to ensure your legacy.
+          </h3>
+          <p class="text-sm lg:text-base text-daccent">
+            First, you are paired with a Client Service Advisor (CSA) who will
+            be your guide through the whole process. To start, they’ll
+            coordinate your one-day delivery and give you a Client-ID, a
+            safeguard to keep your samples anonymous and secure when being
+            analyzed or stored.
+          </p>
+        </div>
+        <div
+          class="p-8 lg:px-8 lg:pb-8 lg:pt-0 col-span-1 flex flex-col justify-start items-start w-full"
+        >
+          <h3
+            class="mt-8 mb-2 text-4xl md:text-5xl leading-none font-serif text-dark"
+          >
+            What happens next?
+          </h3>
+          <p class="text-sm lg:text-base text-daccent">
+            Once you’ve collected your sperm, we’ll arrive that same day to
+            safely transport it back to our state-of-the-art facility. Our kit
+            is designed to protect your sperm’s quality for up to 48 hours, and
+            we conduct a full test on arrival to ensure everything went smoothly
+            in transit.
+          </p>
+        </div>
+        <div
+          class="p-8 lg:px-8 lg:pb-8 lg:pt-0 col-span-1 flex flex-col justify-start items-start w-full"
+        >
+          <h3
+            class="mt-8 mb-2 text-4xl md:text-5xl leading-none font-serif text-dark"
+          >
+            Discover what makes you, you.
+          </h3>
+          <p class="text-sm lg:text-base text-daccent">
+            In just two business days, you will get a secure and comprehensive
+            report—the most rigorous in the industry. You will then have the
+            option to schedule a video call with a fertility specialist in order
+            to discuss your results and how they relate to your fertility. All
+            your information remains anonymized via your Client-ID and is stored
+            on HIPAA-, GDPR- and CCPA-compliant servers.
+          </p>
+        </div>
+        <div
+          class="p-8 lg:px-8 lg:pb-8 lg:pt-0 col-span-1 flex flex-col justify-start items-start w-full"
+        >
+          <h3
+            class="mt-8 mb-2 text-4xl md:text-5xl leading-none font-serif text-dark"
+          >
+            The last piece of the puzzle.
+          </h3>
+          <p class="text-sm lg:text-base text-daccent">
+            If your sperm passes our post-thaw analysis, we’ll immediately store
+            it in a god-tier cryostorage facility that has been carefully vetted
+            to protect your sperm’s quality. Even if you haven’t purchased a
+            cryostorage plan, you’ll have a week to decide whether or not you’d
+            like to continue to protect your fertility for the future. And if
+            the answer is no, we securely dispose of your sample after seven
+            days.
+          </p>
+          <button
+            class="mt-8 px-4 py-2 bg-dark text-light text-sm font-semibold hover:bg-daccent focus:bg-daccent ease outline-none focus:outline-none"
+          >
+            ORDER NOW
+          </button>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
