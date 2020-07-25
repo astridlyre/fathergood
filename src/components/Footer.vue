@@ -50,7 +50,7 @@
           />
         </div>
       </div>
-      <div class="p-8 w-full">
+      <div class="p-8 w-full lg:flex lg:justify-end lg:items-start">
         <button
           class="p-2 bg-light rounded-full hover:bg-laccent focus:bg-laccent outline-none focus:outline-none ease"
         >

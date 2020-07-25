@@ -183,7 +183,7 @@
         ></path>
       </svg>
       <div
-        class="mb-8 lg:mb-0 w-full max-w-screen-md lg:max-w-screen-xl z-0 grid grid-cols-1 md:grid-cols-5"
+        class="mb-8 pb-16 lg:mb-0 w-full max-w-screen-md lg:max-w-screen-xl z-0 grid grid-cols-1 md:grid-cols-5"
       >
         <img
           class="col-span-1 md:col-span-2 w-full object-cover"
@@ -191,7 +191,7 @@
           alt="Man with Scarf"
         />
         <div
-          class="p-8 md:pb-0 col-span-1 md:col-span-3 flex flex-col justify-start md:justify-end items-start w-full"
+          class="p-8 md:pb-0 md:mt-8 col-span-1 md:col-span-3 flex flex-col justify-start md:justify-end items-start w-full"
         >
           <h4 class="mt-8 lg:mt-0 mb-4 text-sm text-daccent">
             DEMYSTIFYING FERTILITY

@@ -156,7 +156,7 @@
         ></path>
       </svg>
       <div
-        class="mb-8 lg:mb-0 w-full max-w-screen-md lg:max-w-screen-xl z-0 grid grid-cols-1 md:grid-cols-3"
+        class="mb-8 w-full max-w-screen-md lg:max-w-screen-xl z-0 grid grid-cols-1 md:grid-cols-3"
       >
         <img
           class="col-span-1 md:col-span-2 w-full object-cover"
