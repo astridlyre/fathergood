@@ -8,18 +8,17 @@
       <div class="p-8 flex flex-col items-start">
         <router-link
           class="text-light text-3xl font-semibold font-sans underlineEffect"
-          to="/how"
+          to="/about"
           >About Us</router-link
         >
         <router-link
           class="text-light text-3xl font-semibold font-sans underlineEffect"
-          to="/analysis"
+          to="/contact"
           >Contact</router-link
         >
-        <router-link
-          class="text-light text-3xl font-semibold font-sans underlineEffect"
-          to="/storage"
-          >Privacy Policy</router-link
+        <a
+          class="cursor-pointer text-light text-3xl font-semibold font-sans underlineEffect"
+          >Privacy Policy</a
         >
       </div>
       <div class="p-8 w-full flex flex-col">

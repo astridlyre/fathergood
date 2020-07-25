@@ -17,6 +17,18 @@
             for the future, you never have to wait.
           </p>
         </div>
+        <svg
+          class="absolute bottom-0 left-0 right-0 h-16 w-full"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          preserveAspectRatio="none"
+        >
+          <path
+            fill="#5e726e"
+            fill-opacity="1"
+            d="M0,160L1440,64L1440,320L0,320Z"
+          ></path>
+        </svg>
       </div>
     </section>
     <section class="flex flex-col items-center w-full z-10">
@@ -128,7 +140,21 @@
         </div>
       </div>
     </section>
-    <section class="flex flex-col items-center justify-center w-full bg-light">
+    <section
+      class="flex flex-col items-center justify-center w-full bg-light relative"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        class="absolute inset-x-0 top-0 w-full h-8 z-10"
+        preserveAspectRatio="none"
+      >
+        <path
+          fill="#5e726e"
+          fill-opacity="1"
+          d="M0,160L1440,64L1440,0L0,0Z"
+        ></path>
+      </svg>
       <div
         class="mb-8 lg:mb-0 w-full max-w-screen-md lg:max-w-screen-xl z-0 grid grid-cols-1 md:grid-cols-3"
       >

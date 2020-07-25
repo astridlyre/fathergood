@@ -22,9 +22,10 @@
         </div>
       </div>
       <svg
-        class="mt-16 w-full absolute bottom-0 right-0 left-0 z-minus"
+        class="w-full absolute bottom-0 inset-x-0 h-48 z-minus"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
+        preserveAspectRatio="none"
       >
         <path
           fill="#ccbf90"
@@ -34,8 +35,13 @@
       </svg>
     </section>
     <OurProcess></OurProcess>
-    <section class="flex flex-col items-center w-full z-10">
-      <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <section class="pt-48 flex flex-col relative items-center w-full z-10">
+      <svg
+        class="absolute top-0 inset-x-0 w-full h-48"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        preserveAspectRatio="none"
+      >
         <path
           fill="#ccbf90"
           fill-opacity="1"

@@ -14,10 +14,8 @@
         >How It Works</router-link
       >
       <router-link class="underlineEffect" to="/analysis">Analysis</router-link>
-      <router-link class="underlineEffect" to="/storage">Storage</router-link>
-      <router-link class="underlineEffect" to="/resources"
-        >Resources</router-link
-      >
+      <router-link class="underlineEffect" to="/about">About Us</router-link>
+      <router-link class="underlineEffect" to="/contact">Contact`</router-link>
     </nav>
     <header
       :class="{ navbarHidden: scrolled, navbarShown: !scrolled }"
@@ -60,13 +58,13 @@
           >
           <router-link
             class="underlineEffect text-light font-semibold"
-            to="/storage"
-            >Storage</router-link
+            to="/about"
+            >About Us</router-link
           >
           <router-link
             class="underlineEffect text-light font-semibold"
-            to="/resources"
-            >Resources</router-link
+            to="/contact"
+            >Contact</router-link
           >
         </div>
         <div class="col-span-5 lg:col-span-3 flex justify-center items-center">
