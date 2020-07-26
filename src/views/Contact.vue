@@ -51,7 +51,7 @@
           </p>
         </div>
         <div class="mt-16 md:mt-0 md:ml-4 flex flex-col w-full">
-          <form>
+          <form v-on:submit.prevent>
             <input
               type="text"
               placeholder="First Name"
@@ -77,6 +77,11 @@
               rows="8"
               class="mt-1 w-full bg-transparent outline-none focus:outline-none border-2 rounded-none placeholder-laccent border-light form-textarea resize-none"
             ></textarea>
+            <button
+              class="mt-8 px-4 py-2 bg-light text-daccent text-sm font-semibold hover:bg-laccent focus:bg-laccent ease outline-none focus:outline-none"
+            >
+              SEND
+            </button>
           </form>
         </div>
       </div>
