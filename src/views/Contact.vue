@@ -46,8 +46,8 @@
           <p class="text-sm sm:text-base text-light">
             For any questions, please fill out the form below, and a member of
             our team will be in touch within 24 hours. For immediate questions,
-            you can use the chat window at the bottom of your screen, e-mail us
-            at help@givelegacy.com, or call or text us at +1 617 514 0901
+            you can e-mail us at help@fathergood.com, or call or text us at
+            +1(800)873-9292
           </p>
         </div>
         <div class="mt-16 md:mt-0 md:ml-4 flex flex-col w-full">
